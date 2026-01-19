@@ -58,6 +58,8 @@
             },
             "_comment_vulnerabilities_names_list": "Optional. Check specific libs names (minimist-0.0.8.tgz). Operators: eq (==), contains (all items from expected list in actual), in(all items from actual list in expected), nin(actual list does not contain provided libs). If not provided, this check will not be performed."
         },
+        "validate_scanner_logs": true,
+
         "logs": {
             "check_scanner_logs": true,
             "_comment_check_scanner_logs": "Whether to check scanner logs and attach them to Report Portal. Options: true | false. Default: true",
